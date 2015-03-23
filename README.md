@@ -61,7 +61,7 @@ $appId = "{APPID}";
 $secretKey = "{SecretKey}";
 
 $client = Client::factory(array(
-        'base_url' => Client::SANDBOX,  // or Client::LIVE
+        'base_url' => Client::LIVE,
         'app_id' => $appId,
         'secret_key' => $secretKey
 ));
@@ -77,14 +77,7 @@ Now that your MojioClient is associated with your app, you can get started makin
 
 ```php
 // ...
-<<<<<<< HEAD
-// Authenticate specific user
-$client->login(array(
-    'userOrEmail' => 'demo@example.com',
-    'password' => 'mypassword',
-));
-	
-=======
+
 // Set the redirect URI to point to this exact same script.
 $redirectUri = (isset($_SERVER['HTTPS']) ? 'https' : 'http')
                    . '://' . $_SERVER['HTTP_HOST'] 
@@ -99,7 +92,6 @@ if(!isset($_GET['code'])) {
     $client->authorize($redirectUri, $_GET['code']);
 }
 
->>>>>>> da42bcc956e02bd4a8d9327ba5f8bee5528155a6
 // ...
 // Logout user.
 $client->logout();
