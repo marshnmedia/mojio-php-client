@@ -240,6 +240,10 @@
                     "location": "uri",
                     "description": "Token ID",
                     "required": true
+                },
+                "action": {
+                	"location": "uri",
+                	"description": "Optional Action"
                 }
             }
         },
