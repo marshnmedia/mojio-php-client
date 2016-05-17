@@ -243,7 +243,7 @@
                 },
                 "action": {
                 	"location": "uri",
-                	"description": "Optional Action"
+                	"description": "Optional Action - HACK by Intellaegis"
                 }
             }
         },
