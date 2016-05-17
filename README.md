@@ -1,7 +1,7 @@
 Mojio.Client
 ============
 
-As PHP is the language of choice for many of you developers out there, we have put together a simplified client built on top of [Guzzle](http://guzzlephp.org/) to help you get started.  This client is still very much in it's alpha stages, we appologize for any bugs and incomplete features.
+TESTAs PHP is the language of choice for many of you developers out there, we have put together a simplified client built on top of [Guzzle](http://guzzlephp.org/) to help you get started.  This client is still very much in it's alpha stages, we appologize for any bugs and incomplete features.
 
 Installation
 ============
